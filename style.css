@@ -1,0 +1,231 @@
+body {
+  background-color: #a9d7d1;
+  text-align: center;
+  font-family: "Raleway", Helvetica, sans-serif;
+  min-width: 320px;
+  color: whitesmoke;
+}
+
+#main {
+  background-color: #222333;
+}
+
+#btnsub {
+  margin-bottom: 1%;
+}
+
+.cont {
+  margin-top: 2%;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#dropdown,
+#dropdown1,
+#comment {
+  width: 70%;
+  margin-bottom: 2%;
+  font: 400 13.3333px Arial;
+}
+
+#description {
+  margin-top: 2%;
+  font-size: 1.3em;
+  margin-bottom: 2%;
+}
+
+.txt {
+  float: right;
+  font-size: 1.3em;
+  margin-top: 1%;
+  text-align: right;
+}
+
+#rd,
+#rd1 {
+  list-style: none;
+  float: left;
+}
+
+#rd > li,
+#rd1 > li {
+  position: relative;
+  text-align: justify;
+  font-size: 1.2em;
+  left: -40px;
+}
+
+#rad {
+  margin-top: 0px;
+  line-height: 95%;
+}
+
+.row {
+  margin-bottom: 2%;
+}
+
+select {
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  font: 400 13.3333px Arial;
+}
+
+#comment {
+  height: 100px;
+  resize: vertical;
+}
+
+#submit {
+  margin-bottom: 2%;
+}
+
+#name-label,
+#email-label,
+#number-label {
+  text-align: right;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin-top: 1%;
+  float: right;
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+
+#applytxt {
+  margin-top: -1px;
+  padding-top: 0px;
+  vertical-align: top;
+}
+
+.btn-success {
+  background-color: #3d3f5c;
+  border: 0px;
+}
+
+.soc {
+  float: right;
+  display: flex;
+  justify-content: center;
+  margin-right: 0px;
+}
+
+.social {
+  display: inline;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+.fa {
+  color: whitesmoke;
+}
+
+#tit,
+#f {
+  background-color: #43466d;
+  font-size: 25px;
+}
+
+#tit {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  line-height: 25px;
+}
+
+#f {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 35px;
+  line-height: 35px;
+}
+
+span#cd11 {
+  text-align: right;
+  margin-left: 10%;
+}
+
+.imp {
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  #f {
+    height: auto;
+    line-height: auto;
+  }
+
+  .soc {
+    float: none;
+  }
+
+  .txt {
+    float: none;
+  }
+
+  .social {
+    margin-right: 15px;
+  }
+
+  #comment {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #comment,
+  #area,
+  #applytxt,
+  #drop1,
+  #rad,
+  #drop,
+  #number-label,
+  #email-label,
+  #name-label {
+    margin-bottom: 10px;
+  }
+  #comment,
+  #dropdown,
+  #rd,
+  #most-like,
+  #rd1 {
+    margin-top: 10px;
+  }
+
+  #area,
+  #applytxt,
+  #drop1,
+  #rad,
+  #drop,
+  #number-label,
+  #email-label,
+  #name-label,
+  #dropdown,
+  #rd,
+  #most-like,
+  #rd1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  #rd,
+  #rd1 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    float: right;
+  }
+}
+
+#theDude {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#iagree {
+  vertical-align: top;
+}
